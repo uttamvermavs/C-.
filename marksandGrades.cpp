@@ -5,7 +5,8 @@ using namespace std;
     cout<<"enter marks ";
     int a ;
     cin>> a;
-    //METHOD 1 :
+    //METHOD 1 : by only If Statement !
+  
 // if(a>=91 && a<=100){
 //         cout<<a<<endl<<" Excellent";
 // }
@@ -29,7 +30,8 @@ using namespace std;
 // }
 
 
-// METHOD 2
+// METHOD 2 if Else Ladder !!
+  
 // if(a>=91){
 //    cout<<"Excellnt";
 // }
@@ -41,6 +43,7 @@ using namespace std;
 //    if(a>=71){
 //       cout<<"Good";
 //    }
+  
 //    else{
 //    if(a>=61)
 //       cout<<"Can Do Better";
@@ -49,8 +52,8 @@ using namespace std;
 //    else{
 //    if(a>=51){
 //       cout<<"Average";
-   
 // }
+  
 //    else{
 //    if(a>=41){
 //       cout<<"Below Average";
@@ -69,7 +72,7 @@ using namespace std;
 //             }
 //                
 
-// METHOF 3 ELSE-IF !!!
+// METHOF 3  Use of ELSE-IF !!!
 
 if(a>=91){
    cout<<"Excellent";
